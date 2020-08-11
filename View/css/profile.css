@@ -1,0 +1,23 @@
+#profile-main{
+    margin-left: 15px;
+
+}
+#avatar{
+    height: 200px;
+    width: 150px;
+}
+
+#ten{
+    font-size: 40px;
+    border-bottom: 1px solid rgb(177, 175, 175);
+}
+#thongtin{
+    padding-top: 15px;
+}
+#khungavatar{
+    border-right: 1px solid rgb(177, 175, 175);
+    padding: 10px;
+}
+#khungthongtin{
+    padding: 10px 0 0 20px;
+}

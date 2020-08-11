@@ -1,0 +1,240 @@
+body{
+    width: 100vw;                     
+}
+#brand{
+    width: 50px;
+    height: 50px;
+}
+#homepage{
+    background-image: linear-gradient(15deg,rgba(32, 1, 34,0.8), rgba(111, 0, 0,0.8)),
+                      url("../images/trangchu/navbar-background.jpg"); 
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#thanh-menu:hover{
+    background:  black;
+}
+
+#barContent{
+    margin: 10px;
+}
+.dropdown-menu{
+    background: linear-gradient(to bottom, #d3cce3, #e9e4f0);
+}
+
+#lala{
+    margin-top: 200px;
+}
+#header-tieude{
+    font-size: 5em;
+    color: whitesmoke;
+}
+#header-content{
+    font-size: 1.5em;
+    color: whitesmoke;
+
+}
+.icon-function{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 37px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    transition: transform .3s;
+    
+}
+
+.icon-function:hover{
+    transform: scale(1.5);
+}
+/* content1 */
+#jug{
+    width: 90%;
+    height: 90%;
+}
+
+#content1-note{
+    margin-top: 50px;
+}
+
+.circle-img{
+    background-color: tomato;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-img:hover{
+    width: 60px;
+    height: 60px;
+    background-color: white ;
+}
+.content1-detail{
+    margin: 10px 0;
+   
+}
+
+/* Content 2 */
+#content2{
+    background-image: linear-gradient(15deg,rgba(32, 1, 34,0.8), rgba(111, 0, 0,0.8)),
+                      url("../images/trangchu/content2.jpg"); 
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.question-guest{
+    width: auto;
+    margin: 10px auto ;
+    border-radius: 40px; 
+}
+.question-guest-text{
+    color: tomato;
+    width: 500px;
+    margin: 0 auto;
+    height: auto;
+}
+
+#content2-pic{
+    margin: auto;
+    width: 100px;
+    height: 90px;
+}
+/*  content3 */
+#content3{
+    margin: 20px 0;
+    padding: 10px;
+}
+/* .content3-anh{
+    width: 300px;
+    height: 300px;
+    border-radius: 40pt;
+} */
+.khung-anh{
+    margin: 20px;
+}
+.khung-anh:hover{
+     border: 10pt solid tomato;
+}
+
+/* content4 */
+#content4{
+    background-image: linear-gradient(15deg,rgba(32, 1, 34,0.8), rgba(111, 0, 0,0.8)),
+                      url("../images/trangchu/content-cuoi.jpeg"); 
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+    padding-left: 45px ;
+    
+}
+
+#title-content-cuoi, #form-content-cuoi {
+    margin: 25px 50px;
+}
+
+/* footer */
+
+
+#footerrr{
+    background: linear-gradient(15deg,rgba(32, 1, 34,1), rgba(111, 0, 0,1));            
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: wheat;
+    padding: 50px 0 0 0;
+    
+}
+h5{
+    font-weight: bold;
+}
+.link-footer{
+    text-decoration: none;
+    color: wheat;
+}
+.link-footer:hover{
+    
+    color: whitesmoke;
+}
+hr{
+    border-color: wheat;
+}
+.contact-footer{
+    margin: 10px 0;
+}
+
+
+/* Content 5 */
+
+#content5{
+    padding: 35px 0;
+}
+
+
+.feedback{
+    margin: 10px 30px;
+}
+
+@media (max-width: 768px) { 
+    /* content1 */
+    #khungAnhJug{
+        display: block;
+        text-align: center;
+        height: 420px;
+    }
+    #jug{
+       width: 500px;
+       height: 400px;
+    }
+    #note{
+        text-align: center;
+    }
+
+    #content4{
+        padding-left: 0;
+    }
+    /* contentCuoi */
+    .card{
+        margin: 10px auto;
+    }
+
+    /* footer */
+    #footerrr{
+        text-align: center;
+    }
+
+    .question-guest-text{
+        width: 320px;
+    }
+ }
+ .anhfeedback{
+    display: block;
+ }
+ .avatar-feedback{
+     border-radius: 50%;
+     width: 45px;
+     height: 45px;
+ }
+ @media (max-width: 450px) { 
+    #jug{
+        width:  300px;
+        height: 300px;
+    }
+    #khungAnhJug{
+        display: block;
+        text-align: center;
+        height: 320px;
+        width: 360px;
+    }
+ }

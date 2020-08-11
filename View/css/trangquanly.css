@@ -1,0 +1,28 @@
+
+
+#khung1, #khung2, #khung3, #khung4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+    height: 100px;
+    color: white;
+}
+
+#resultt{
+    /* //border: 1px solid black; */
+    position: relative;
+    display: block;
+    z-index: 100;
+    top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black, 0 0 5px darkred;
+    padding-left: 5px;
+}
+
+
+#thanhbar{
+    
+}
